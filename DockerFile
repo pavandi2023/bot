@@ -1,4 +1,4 @@
 FROM openjdk:17
-EXPOSE 8082
+EXPOSE 8082  # Change this to the port your application listens on
 ADD target/bot-devops-integration.jar bot-devops-integration.jar
 ENTRYPOINT ["java","-jar","/bot-devops-integration.jar"]
