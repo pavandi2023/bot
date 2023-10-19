@@ -1,4 +1,4 @@
 FROM openjdk:17
-EXPOSE 8081
+EXPOSE 8082
 ADD target/bot-devops-integration.jar bot-devops-integration.jar
 ENTRYPOINT ["java","-jar","/bot-devops-integration.jar"]
